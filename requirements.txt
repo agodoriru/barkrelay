@@ -1,0 +1,20 @@
+# barkRelay Dependencies
+# Core transcription libraries
+faster-whisper>=0.10.0
+
+# Audio processing
+pyaudio>=0.2.11
+numpy>=1.21.0
+
+# Real-time processing (optional)
+# whisper-live  # For server-client architecture
+# librosa>=0.8.0  # For advanced audio processing
+# soundfile>=0.10.0  # For audio I/O
+
+# Optional: GPU support (uncomment if using CUDA)
+# nvidia-cublas-cu12
+# nvidia-cudnn-cu12==9.*
+
+# Future: AI agent integration
+# requests>=2.31.0
+# websockets>=11.0
